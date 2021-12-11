@@ -53,4 +53,9 @@ public class LinkedList {
         }
         return newNode;
     }
+    // pop from stack
+    public Node dequeue() {
+        head= head.next;
+        return head;
+    }
 }

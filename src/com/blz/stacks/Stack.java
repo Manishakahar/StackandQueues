@@ -30,7 +30,7 @@ public class Stack {
         linkedList.push(30);
         linkedList.push(56);
         top=linkedList.pop();
-        System.out.println("Top - > " + top.data);
+        System.out.println("Top -> " + top.data);
         linkedList.print();
     }
 }
