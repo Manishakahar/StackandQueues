@@ -1,4 +1,4 @@
-package com.blz.Queuse;
+package com.blz.queuse;
 
 import com.blz.stacks.LinkedList;
 import com.blz.stacks.Node;

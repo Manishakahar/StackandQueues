@@ -1,5 +1,7 @@
-package com.blz.Queuse;
+package com.blz.queuse;
+
 import java.util.Scanner;
+
 //Main Class
 public class Main {
     //Main Method

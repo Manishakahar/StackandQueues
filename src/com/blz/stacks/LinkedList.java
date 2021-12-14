@@ -1,9 +1,9 @@
 package com.blz.stacks;
-
 public class LinkedList {
     Node head;
     Node tail;
-// push to stack
+
+    // push to stack
     public Node push(int data) {
         Node newNode = new Node(data);
         if (head == null) {
@@ -14,6 +14,7 @@ public class LinkedList {
         this.tail = newNode;
         return newNode;
     }
+
     //  check whether the stack is empty
     public void print() {
         Node newNode = head;
@@ -29,7 +30,8 @@ public class LinkedList {
             }
         }
     }
-// peak to Stack
+
+    // peak to Stack
     public Node peak() {
         Node newNode = head;
         if (head == null) {
@@ -41,7 +43,8 @@ public class LinkedList {
         }
         return newNode;
     }
-     // pop to Stack
+
+    // pop to Stack
     public Node pop() {
         Node newNode = this.head;
         if (head == null) {
@@ -53,9 +56,10 @@ public class LinkedList {
         }
         return newNode;
     }
+
     // pop from stack
     public Node dequeue() {
-        head= head.next;
+        head = head.next;
         return head;
     }
 }

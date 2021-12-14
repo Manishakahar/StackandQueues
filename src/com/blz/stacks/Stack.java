@@ -8,6 +8,7 @@ public class Stack {
     public Stack() {
         this.linkedList = new LinkedList();
     }
+
     // push to Stack
     public void pushElement() {
         linkedList.push(70);
@@ -16,6 +17,7 @@ public class Stack {
         linkedList.print();
         System.out.println("Top ->" + top.data);
     }
+
     // peak to Stack
     public void peakElement() {
         linkedList.push(70);
@@ -24,12 +26,13 @@ public class Stack {
         linkedList.print();
         System.out.println("Top ->" + top.data);
     }
+
     // Pop to Stack
     public void popElement() {
         linkedList.push(70);
         linkedList.push(30);
         linkedList.push(56);
-        top=linkedList.pop();
+        top = linkedList.pop();
         System.out.println("Top -> " + top.data);
         linkedList.print();
     }
